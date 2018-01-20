@@ -1,16 +1,15 @@
 package main.java;
 
+import main.java.CountTheDigit.CountDig;
 import main.java.SquareOfSquares.Square;
 
 public class main {
 
     public static void main(String[] args) {
-        int n = 25;
-        int k = 11;
-        Boolean a1 = Square.isSquare(n);
-        Boolean a2 = Square.isSquare(k);
-        System.out.println(a1);
-        System.out.println(a2);
+        int n = 10;
+        int k = 0;
+        int result = CountDig.nbDig(n, k);
+        System.out.println(result);
     }
 
 }
